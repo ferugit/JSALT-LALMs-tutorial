@@ -109,7 +109,7 @@ torch
 torchaudio
 torchlibrosa
 torchvision
-numpy
+numpy==2.1.0
 tqdm==4.67.1
 traitlets
 transformers==4.52.4
