@@ -5,6 +5,7 @@ models/
 
 token.txt
 notebooks/AUGI_lab_session_v3.ipynb
+*.pt
 
 __pycache__/
 

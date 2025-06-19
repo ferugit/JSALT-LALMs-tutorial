@@ -11,9 +11,10 @@ import numpy as np
 from torch import nn
 import torchvision.transforms
 import torchaudio.transforms as T
+import torch.nn.functional as F
 
 
-from audio_flamingo_2.my_laion_clap.CLAP.src.laion_clap.clap_module.htsat import create_htsat_model
+from src.audio_flamingo_2.my_laion_clap.CLAP.src.laion_clap.clap_module.htsat import create_htsat_model
 
 
 def int16_to_float32(x):
