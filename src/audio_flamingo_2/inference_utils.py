@@ -9,7 +9,7 @@ import soundfile as sf
 from pydub import AudioSegment
 from contextlib import suppress
 
-from audio_flamingo_2.utils import float32_to_int16, int16_to_float32
+from src.audio_flamingo_2.utils import float32_to_int16, int16_to_float32
 
 
 def get_num_windows(T, sr, clap_config):

@@ -60,7 +60,7 @@ def main(args):
     )
 
     print("Model and tokenizer created successfully.")
-    print(model)
+    #print(model)
 
     print("Loading trained weights...")
 
