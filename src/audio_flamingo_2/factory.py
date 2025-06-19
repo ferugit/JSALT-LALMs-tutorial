@@ -18,7 +18,10 @@ from transformers import (
     AutoTokenizer,
 )
 
-from src.audio_flamingo_2.my_laion_clap.CLAP.src.laion_clap.clap_module.htsat import create_htsat_model
+try:
+    from src.audio_flamingo_2.my_laion_clap.CLAP.src.laion_clap.clap_module.htsat import create_htsat_model
+except ImportError:
+    from audio_flamingo_2.my_laion_clap.CLAP.src.laion_clap.clap_module.htsat import create_htsat_model
 
 # Attempt to import local modules with fallback
 try:
