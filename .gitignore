@@ -1,0 +1,19 @@
+.venv
+notebooks/.ipynb_checkpoints
+results/
+models/
+
+token.txt
+
+__pycache__/
+
+!results/README.md
+
+# Ignore task logs
+*.log
+# Ignore tasks SGE
+*.tsk
+# Ignore task output
+*.out
+# Ignore task error output
+*.err
