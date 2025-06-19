@@ -26,9 +26,9 @@ try:
     from .flamingo_lm import FlamingoLMMixin
     from .utils import extend_instance
 except ImportError:
-    from flamingo import Flamingo
-    from flamingo_lm import FlamingoLMMixin
-    from utils import extend_instance
+    from audio_flamingo_2.flamingo import Flamingo
+    from audio_flamingo_2.flamingo_lm import FlamingoLMMixin
+    from audio_flamingo_2.utils import extend_instance
 
 # Ensure correct module path inclusion
 sys.path.append("../")

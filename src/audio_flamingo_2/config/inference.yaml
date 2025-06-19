@@ -59,8 +59,8 @@ clap_config:
 model_config:
   # HF LLM Local cache dir
   cache_dir: models/
-  lang_encoder_path: Qwen/Qwen2.5-3B
-  tokenizer_path: Qwen/Qwen2.5-3B
+  lang_encoder_path: Qwen/Qwen2.5-0.5B
+  tokenizer_path: Qwen/Qwen2.5-0.5B
   
   # XATTN: Needed to instantiate the model XATTN
   cross_attn_every_n_layers: 1

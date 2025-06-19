@@ -4,6 +4,7 @@ results/
 models/
 
 token.txt
+notebooks/AUGI_lab_session_v3.ipynb
 
 __pycache__/
 

@@ -8,7 +8,7 @@ ulimit -v unlimited
 
 HF_TOKEN=$1
 echo $HF_TOKEN
-local_dir="../models/audio_flamingo_2"
+local_dir="models/audio_flamingo_2"
 
 # Check if the local directory exists
 if [ ! -d "$local_dir" ]; then
@@ -19,6 +19,6 @@ else
 fi
 
 # Downloasd the 3B model under the models/audio_flamingo_2 directory
-python ../src/scripts/download_af2.py \
+python src/scripts/download_af2.py \
     --local_dir $local_dir \
     --hf_token $HF_TOKEN
